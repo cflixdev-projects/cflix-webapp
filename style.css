@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(1, 1, 1, 0.956);
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('cflix-showcase\ \(2\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ 
+
+.seconw {
+    padding: 50px 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s all;
+    width: 30%;
+    background: rgba(90, 1, 255, 0.142);
+    backdrop-filter: blur(10px);
+}
+
+.cb {
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.wrapper h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+.d a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.d {
+    margin-top: 20px;
+    padding: 8px 40px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    background: linear-gradient(to left, #9000ff, #00f2ff); /* Set the linear gradient */
+}
+
+.wrapper h1 .cflix {
+    background: linear-gradient(to right, #00f2ff, #a200ff); /* Set the linear gradient */
+            -webkit-background-clip: text; /* Clip text to the background */
+            color: transparent;
+            
+}
+
+.wrapper h1 .cflix2 {
+    background: linear-gradient(to left, #9500ff, #00f7ff); /* Set the linear gradient */
+            -webkit-background-clip: text; /* Clip text to the background */
+            color: transparent;
+}
+
+.seconw:hover {
+    box-shadow: 0px 0px 15px rgba(108, 10, 227, 0.532);
+
+}
+
+.d:hover {
+   box-shadow: 3px 3px 15px #3a7fff66;
+}
+
+.ico {
+    height: 22px;
+    width: auto;
+    padding-left: 10px;
+}
+
+.svgshit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    text-align: center;
+    font-family: 'Poppins';
+    margin-top: 20px;
+    font-size: 0.7rem;
+    width: 50%;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 985px) {
+    .info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .wrapper h1 {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 1.8rem;
+    }
+    .d a{
+        font-size: .8rem;
+    }
+    .info {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wrapper h1 {
+        font-size: 1.8rem;
+    }
+    .d a{
+        font-size: .8rem;
+    }
+    .info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 508px) {
+    .wrapper h1 {
+        font-size: 1.2rem;
+    }
+    .d a{
+        font-size: .7rem;
+    }
+    .d {
+        padding: 5px 20px;
+    }
+    .info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 408px) {
+    .wrapper h1 {
+        font-size: 0.9rem;
+    }
+    .info {
+        font-size: 0.3rem;
+    }
+}

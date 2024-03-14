@@ -148,13 +148,24 @@ body {
     .info {
         width: 100%;
     }
+    .ico {
+        height: 15px;
+        width: auto;
+    }
+    .body {
+       overflow-y: hidden;
+    }
 }
 
 @media screen and (max-width: 408px) {
     .wrapper h1 {
-        font-size: 0.9rem;
+        font-size: 1.4rem;
     }
     .info {
-        font-size: 0.3rem;
+        font-size: 0.6rem;
     }
+    .seconw {
+        width: 60%;
+    }
+
 }
